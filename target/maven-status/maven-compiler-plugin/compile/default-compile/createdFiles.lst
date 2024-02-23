@@ -1,1 +1,10 @@
+com/example/s18g1/entity/BreadType.class
+com/example/s18g1/entity/Burger.class
+com/example/s18g1/dao/BurgerDaoImpl.class
+com/example/s18g1/util/BurgerValidation.class
+com/example/s18g1/exceptions/BurgerErrorResponse.class
 com/example/s18g1/S18g1Application.class
+com/example/s18g1/dao/BurgerDao.class
+com/example/s18g1/exceptions/GlobalExceptionHandler.class
+com/example/s18g1/exceptions/BurgerException.class
+com/example/s18g1/controller/BurgerController.class

@@ -40,7 +40,7 @@ public class BurgerDaoImpl implements BurgerDao {
 
     @Override
     public List<Burger> findAll() {
-        TypedQuery<Burger> query = entityManager.createQuery("SELECT b FROM Burger e", Burger.class);
+        TypedQuery<Burger> query = entityManager.createQuery("SELECT b FROM Burger b", Burger.class);
         return query.getResultList();
     }
 
